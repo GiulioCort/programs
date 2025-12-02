@@ -1,0 +1,52 @@
+body {
+    font-family: arial;
+    background-color: beige;
+    text-align: center;
+}
+
+#main {
+    width: 600px;
+    margin: 40px auto;
+    height: 450px;
+    background-color: white;
+    border: 2px solid beige;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#numero {
+    width: 400px;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(192, 192, 192);
+}
+#estrazione {
+    font-size: 60px;
+}
+
+button {
+    width: 170px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+input {
+    width: 160px;
+    height: 25px;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+#nero {
+    background-color: black;
+    color: white;
+}
+#rosso {
+    background-color: red;
+    border-color:rgb(176, 0, 0);
+    color: white;
+}
+#rosso:hover {background-color:rgb(176, 0, 0);}

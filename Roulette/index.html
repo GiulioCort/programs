@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Roulette</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Roulette</h1>
+        <div id="numero">
+            <label id="estrazione">0</label>
+        </div>
+        <div>
+            <button onclick="roulette('nero')" id="nero">Nero</button>
+            <button onclick="roulette('rosso')" id="rosso">Rosso</button>
+        </div>
+        <div>
+            <input id="num" type="number">
+            <button onclick="roulette(document.getElementById('num').value)">Conferma</button>
+        </div>
+        <div>
+            <button onclick="roulette('pari')">Pari</button>
+            <button onclick="roulette('dispari')">Dispari</button>
+        </div>
+            <label>Punti: <label id="punteggio">0</label></label>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
